@@ -1,0 +1,18 @@
+//calculate gross salary
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+    // declare variable 
+   float basic_salary, allowance,house_rent,gross_salary;
+printf("Enter your basic salary. =");
+scanf("%f",&basic_salary);
+//allowance 
+printf("This is allowance. =""%f\n",allowance=0.40 *basic_salary);
+//house rent
+printf("This is your house rent. =""%f\n",house_rent=0.20*basic_salary);
+//Gross salary
+printf("This is a gross salary.  =""%for\n",gross_salary=basic_salary+allowance+house_rent);
+
+    return 0;
+}
